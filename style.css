@@ -1,0 +1,77 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size: 30px;
+}
+
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+.haft-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.link-button{
+    text-decoration: none;
+    color:white;
+    background-color: orangered;
+    padding: 10px 29px;
+    border-radius: 20px;
+}
+
+img{
+    height: 350px;  
+}
+
+.top-banner{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.midde-banner{
+    background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position:right ;
+
+}
+
+
+
+
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    
+
+}
+.experiencs-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow:10px 10px 40px gray;
+    border-radius: 10px;
+    
+
+}
+
+#fullStackDevloper{
+    border-left: 7px solid blue;
+
+}
+#BabyStackDevloper{
+    border-left: 7px solid rgb(255, 72, 0);
+
+}
+
+.fot {
+    text-align: center;
+}
